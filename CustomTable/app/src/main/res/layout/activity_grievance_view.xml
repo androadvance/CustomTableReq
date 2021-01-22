@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GrievanceView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="EmpNo"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/t_empno"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:paddingTop="3dp"
+            android:textColor="#000000"
+            android:background="@drawable/border"
+            android:hint=""
+            android:padding="5dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="Unit"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/t_unit"
+            android:layout_width="114dp"
+            android:layout_height="30dp"
+            android:background="@drawable/border"
+            android:hint=""
+            android:textColor="#000000"
+            android:padding="5dp"
+            android:paddingTop="3dp"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="4dp"/>
+
+        <LinearLayout
+            android:layout_width="157dp"
+            android:layout_height="30dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="17dp"
+            android:background="@drawable/border">
+
+            <Spinner
+                android:layout_width="157dp"
+                android:layout_height="30dp"
+                android:id="@+id/spins1">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/filterid"
+            android:background="@drawable/buttonstyles"
+            android:textColor="#FFFFFF"
+            android:text="Filter"
+            android:layout_marginLeft="30dp"/>
+
+    </LinearLayout>
+
+   <!-- <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/filterid"
+        android:background="@drawable/buttonstyles"
+        android:textColor="#FFFFFF"
+        android:text="Filter"
+        android:layout_marginLeft="30dp"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:background="#ff669900">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="S.No"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/textid"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="20dp"
+            android:text="Request"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listid"
+            android:layout_marginTop="0dp">
+
+        </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>

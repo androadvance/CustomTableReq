@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundapp"
+    android:fillViewport="false">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".LeaveRequest.LeaveReport">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/search_list"
+            android:textColor="#673AB7"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="-185dp">
+
+        </TextView>
+
+        <View
+            android:id="@+id/viewid"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:background="#FF5722"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9">
+
+        </View>
+
+
+        <TextView
+            android:id="@+id/textempnoid"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/empno"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/viewid">
+
+        </TextView>
+
+
+        <EditText
+            android:id="@+id/empid"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/border"
+            android:cursorVisible="false"
+            android:editable="false"
+            android:paddingStart="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/textempnoid"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
+            tools:ignore="RtlSymmetry">
+
+        </EditText>
+
+
+        <TextView
+            android:id="@+id/textteamid"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/team"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/empid">
+
+        </TextView>
+
+
+        <EditText
+            android:id="@+id/teamid"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/border"
+            android:cursorVisible="false"
+            android:editable="false"
+            android:paddingStart="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textteamid"
+            app:layout_constraintTop_toBottomOf="@+id/empid"
+            tools:ignore="RtlSymmetry">
+
+        </EditText>
+
+
+        <TextView
+            android:id="@+id/textunitid"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/unit"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/teamid">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/unitid"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/border"
+            android:cursorVisible="false"
+            android:editable="false"
+            android:paddingStart="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textunitid"
+            app:layout_constraintTop_toBottomOf="@+id/teamid"
+            tools:ignore="RtlSymmetry">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/textfromdateid"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/from_date"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/unitid">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/datefromid"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/borders"
+            android:cursorVisible="false"
+            android:drawableEnd="@drawable/ic_arrow_drop_down_black_24dp"
+            android:editable="false"
+            android:gravity="center"
+            android:paddingStart="10dp"
+            android:paddingEnd="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textfromdateid"
+            app:layout_constraintTop_toBottomOf="@+id/unitid">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/texttodateid"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/to_date"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/datefromid">
+
+        </TextView>
+
+
+        <EditText
+            android:id="@+id/todateid"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/borders"
+            android:cursorVisible="false"
+            android:drawableEnd="@drawable/ic_arrow_drop_down_black_24dp"
+            android:editable="false"
+            android:gravity="center"
+            android:paddingStart="10dp"
+            android:paddingEnd="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/texttodateid"
+            app:layout_constraintTop_toBottomOf="@+id/datefromid">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/viewdetailsid"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:background="#3F51B5"
+            android:text="@string/search"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/todateid">
+
+        </Button>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

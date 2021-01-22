@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/grey_500"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="20/02/2020"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/border_grey">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.2"
+                android:ems="30"
+                android:gravity="center"
+                android:paddingBottom="2dp"
+                android:text="Punch"
+                android:textColor="@color/red_500"
+                android:background="@color/grey_300"
+                android:textSize="12dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@color/grey_500" />
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.08"
+                android:textColor="@color/red_500"
+                android:background="@color/grey_300"
+                android:ems="30"
+                android:gravity="center"
+                android:paddingBottom="2dp"
+                android:text="Time"
+                android:textSize="12dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@color/grey_500" />
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.1"
+                android:textColor="@color/red_500"
+                android:background="@color/grey_300"
+                android:ems="30"
+                android:gravity="center"
+                android:paddingBottom="2dp"
+                android:text="Location"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@color/grey_500" />
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.1"
+                android:textColor="@color/red_500"
+                android:background="@color/grey_300"
+                android:ems="30"
+                android:gravity="center"
+                android:paddingBottom="2dp"
+                android:text="Purpose"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@color/grey_500" />
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.1"
+                android:textColor="@color/red_500"
+                android:ems="30"
+                android:gravity="center"
+                android:paddingBottom="2dp"
+                android:text="Photo"
+                android:background="@color/grey_300"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@color/grey_500" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/border_grey">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="70dp"
+                android:layout_weight="0.2"
+                android:ems="30"
+                android:gravity="center"
+                android:paddingBottom="2dp"
+                android:text="Punch In"
+                android:textColor="#000000"
+                android:textSize="12dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@color/grey_500" />
+
+            <TextView
+                android:id="@+id/intimepunch"
+                android:layout_width="110dp"
+                android:layout_height="70dp"
+                android:layout_weight="0.08"
+                android:ems="30"
+                android:gravity="center"
+                android:paddingBottom="2dp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="12dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@color/grey_500" />
+
+            <TextView
+                android:id="@+id/locationin"
+                android:layout_width="110dp"
+                android:layout_height="70dp"
+                android:layout_weight="0.1"
+                android:ems="30"
+                android:gravity="center"
+                android:paddingBottom="2dp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@color/grey_500" />
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="70dp"
+                android:layout_weight="0.1"
+                android:id="@+id/purposein"
+                android:ems="30"
+                android:gravity="center"
+                android:paddingBottom="2dp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@color/grey_500" />
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="70dp"
+                android:layout_weight="0.1"
+                android:id="@+id/inpunchimage"
+                android:ems="30"
+                android:gravity="center"
+                android:paddingBottom="2dp" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@color/grey_500" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/border_grey">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="70dp"
+                android:layout_weight="0.2"
+                android:ems="30"
+                android:gravity="center"
+                android:paddingBottom="2dp"
+                android:text="Punch Out"
+                android:textColor="#000000"
+                android:textSize="12dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@color/grey_500" />
+
+            <TextView
+                android:id="@+id/outtimepunch"
+                android:layout_width="110dp"
+                android:layout_height="70dp"
+                android:layout_weight="0.08"
+                android:ems="30"
+                android:gravity="center"
+                android:paddingBottom="2dp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="12dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@color/grey_500" />
+
+            <TextView
+                android:id="@+id/locationout"
+                android:layout_width="110dp"
+                android:layout_height="70dp"
+                android:layout_weight="0.1"
+                android:ems="30"
+                android:gravity="center"
+                android:paddingBottom="2dp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@color/grey_500" />
+
+            <TextView
+                android:id="@+id/purposeout"
+                android:layout_width="110dp"
+                android:layout_height="70dp"
+                android:layout_weight="0.1"
+                android:ems="30"
+                android:gravity="center"
+                android:paddingBottom="2dp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@color/grey_500" />
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="70dp"
+                android:layout_weight="0.1"
+                android:ems="30"
+                android:id="@+id/outpunchimage"
+                android:gravity="center"
+                android:paddingBottom="2dp"/>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@color/grey_500" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

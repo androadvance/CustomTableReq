@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.1"
+        android:ems="30"
+        android:gravity="center"
+        android:paddingBottom="2dp"
+        android:text="Date"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="fill_parent"
+        android:background="@color/grey_500" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.1"
+        android:ems="30"
+        android:gravity="center"
+        android:paddingBottom="2dp"
+        android:text="In-Time"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="fill_parent"
+        android:background="@color/grey_500" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.1"
+        android:ems="30"
+        android:gravity="center"
+        android:paddingBottom="2dp"
+        android:text="Out-Time"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold"/>
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="fill_parent"
+        android:background="@color/grey_500" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.1"
+        android:ems="30"
+        android:gravity="center"
+        android:paddingBottom="2dp"
+        android:background="@color/colorPrimary"
+        android:text="Unit-In"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="fill_parent"
+        android:background="@color/grey_500" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.1"
+        android:ems="30"
+        android:gravity="center"
+        android:paddingBottom="2dp"
+        android:text="Unit-Out"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="fill_parent"
+        android:background="@color/grey_500" />
+
+</LinearLayout>
+
+

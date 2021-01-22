@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminView">
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="Unit"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="vertical"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/border">
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:id="@+id/spins">
+
+            </Spinner>
+
+        </LinearLayout>
+
+    </LinearLayout>
+-->
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="vertical"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/border">
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:id="@+id/spins1">
+
+            </Spinner>
+
+        </LinearLayout>
+
+    </LinearLayout>
+-->
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="EmpNo"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/t_empno"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:paddingTop="3dp"
+            android:textColor="#000000"
+            android:background="@drawable/border"
+            android:hint=""
+            android:padding="5dp"
+            android:textSize="14sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/filterid"
+            android:background="@drawable/buttonstyles"
+            android:textColor="#FFFFFF"
+            android:text="Filter"
+            android:layout_marginLeft="30dp"/>
+
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:background="#ff669900"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grievance Status"
+            android:textColor="#FFFFFF"
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listid">
+
+        </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
